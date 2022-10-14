@@ -1,0 +1,68 @@
+.page{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 34rem;
+}
+.left img{
+    width: 38rem;
+    height: 34rem;
+    border-radius: 1rem;
+}
+.right{
+    border: solid 1px gainsboro ;
+    border-radius: 1rem;
+    padding: 0 2rem 0 2rem;
+}
+.text{
+    font-size: 2rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.input input{
+    height: 3.5rem;
+    width: 30rem;
+    border-bottom: none;
+    border: solid 1px gainsboro;
+    background-color: rgba(29, 178, 232, 0.525);
+    box-shadow: -0.5px -0.5px 0.5px gainsboro ;
+    font-family: 'Francois One', sans-serif;
+    padding-left: 1rem ;
+}
+.input input:first-child{
+    border-bottom: none;
+    border-top-left-radius: 0.6rem ;
+    border-top-right-radius: 0.6rem ;
+}
+.input input:last-child{
+    
+    border-bottom-left-radius: 0.6rem ;
+    border-bottom-right-radius: 0.6rem ;
+}
+.button_text{
+    color: rgb(137, 137, 137);
+    font-size: 0.9rem;
+}
+.button_text a{
+    margin-left: 12.5rem;
+    color: rgb(137, 137, 137);
+}
+.button button{
+    height: 3rem;
+    width: 30rem;
+    background-color: #1646b5;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-family: 'Francois One', sans-serif;
+}
+.icon{
+    color:rgb(137, 137, 137)
+}
+.icon img{
+    width: 3.5rem;
+}
