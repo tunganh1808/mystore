@@ -21,8 +21,8 @@ body {
 }
 
 .logo img {
-	width:5.5rem;
-	padding: 0.5rem 0 0 2rem;
+	width:7rem;
+	padding: 1rem 0 0 2rem;
 	cursor: pointer;
 }
 
@@ -57,14 +57,16 @@ body {
 }
 
 .main_slogan {
-	margin: 20rem 0 0 2rem;
+	margin: 25rem 0 0 2rem;
 	color: white;
 	font-size: 2rem;
 	animation: start forwards 3s;
 	opacity: 0;
 	width: 80%;
 }
-
+.main_slogan h1{
+	margin: 0;
+}
 
 @keyframes start {
 	0% {
@@ -278,6 +280,7 @@ body {
 }
 .Us_text p,h1{
 	margin: 3rem 1rem -2rem 4rem;
+	
 }
 
 /**/
